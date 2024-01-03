@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "rss-parser": "^3.13.0"
+  },
+  "source": "index.html",
+  "devDependencies": {
+    "buffer": "^5.5.0||^6.0.0",
+    "events": "^3.1.0",
+    "https-browserify": "^1.0.0",
+    "nodemon": "^3.0.1",
+    "parcel": "^2.10.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.1.0",
+    "string_decoder": "^1.3.0",
+    "timers-browserify": "^2.0.11",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "start": "nodemon backend.js",
+    "build": "parcel"
+  },
+  "type": "module"
+}
